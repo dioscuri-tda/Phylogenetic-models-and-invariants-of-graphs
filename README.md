@@ -1,5 +1,7 @@
 # Phylogenetic models and invariants of graphs
- This repository provides the code for the publication "Combinatorial topological models for phylogenetics and the mergegram invariant", where the theoretical and algorithmical groundwork is made for these implementations. 
+ This repository looks at the "grammodels" type of representations for phylogenetic trees and network as well as for general metric spaces.
+
+ The starting point is the publication "Combinatorial topological models for phylogenetics and the mergegram invariant", where the theoretical and algorithmical groundwork is made for these implementations. The associated repository with the codebase for that publication can be found [here](https://github.com/janfsenge/Combinatorial-Models-for-Phylogenetics).
 
 The main parts are the three models Treegram, Cliquegram, Facegram (in ascending generality), which provide different methods. The three models have different representations, once as lattices, once via distance matrices, once as directed acyclic graphs, all with their respective properties and restrictions. 
 
@@ -13,5 +15,3 @@ Given a finite set of points X.
     * The treegram can be represented by a symmetric ultramatric.
     * The cliquegram can be represented by a phylogenetic network.
     * The facegram can be represented by a filtration.
-
-To illustrate the following table, let us fix some notation, needed for this repository. Given a finite set $X$, define a filtration $F: \mathbf{pow}(X) \rightarrow mathbb{R}$. It has the properties that $F(\sigma) \leq F(\tau)$ for all $\sigma \subseteq \tau$. 
